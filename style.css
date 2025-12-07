@@ -1,0 +1,72 @@
+body {
+    background-image: url('https://codehs.com/uploads/c41630f4927835c3df7cf2e0d42f2242');
+    background-size: cover;
+    background-position: center;
+}
+
+img {
+    width: 900px;
+    height: 600px;
+    
+}
+
+#carousel {
+    margin-top: 50px;
+}
+
+h1 {
+    font-family: "Allura", cursive;
+    font-size: 150px;
+    color: lightskyblue;
+    text-shadow: 1px 1px black;
+    padding-top: 25px;
+}
+
+h3 {
+    font-family: "Allura", cursive;
+    font-size: 60px;
+    color: white; 
+    text-shadow: 1px 1px black;
+}
+
+#header h3{
+    margin-top: -50px;
+    font-size: 80;
+}
+
+h4 {
+    font-family: "Allura", cursive;
+    font-size: 40px;
+    color: white; 
+}
+
+hr {
+    width: 25%;
+    margin-top: -30px;
+    border: 1px solid white;
+}
+
+#nav {
+    width: 900px;
+    height: 60px;
+    margin-top: -5px;
+}
+
+#nav a {
+    width: 225px;
+    height: 45px;
+    display: inline-block;
+    float: left;
+    font-size: 30px;
+    font-family: "Oswald", sans-serif;
+    padding-top: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+#nav a:hover {
+    background-color: lightskyblue;
+    text-decoration: underline;
+    color: darkolivegreen;
+}

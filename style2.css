@@ -1,0 +1,107 @@
+body {
+    font-family: "Science Gothic", sans-serif;
+    background-color: lightblue;
+    text-align: center;
+    padding: 10px;
+}
+
+#nav {
+    width: 900px;
+    height: 60px;
+    margin-top: 20px;
+}
+
+#nav a {
+    width: 225px;
+    height: 45px;
+    display: inline-block;
+    float: left;
+    font-size: 30px;
+    font-family: "Oswald", sans-serif;
+    padding-top: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+#nav a:hover {
+    background-color: lightskyblue;
+    text-decoration: underline;
+}
+
+h1 {
+    color: white;
+}
+
+h3 {
+    font-family: "Allura", cursive;
+    font-size: 60px;
+    color: white; 
+    text-shadow: 1px 1px black;
+}
+
+h4 {
+    font-family: "Allura", cursive;
+    font-size: 40px;
+    color: white; 
+}
+
+hr {
+    width: 25%;
+    margin-top: -30px;
+    border: 1px solid white;
+}
+
+form {
+    background-image: url('https://codehs.com/uploads/c41630f4927835c3df7cf2e0d42f2242');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: left;
+    color: white;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+
+button[type="submit"] {
+    background-color: orange;
+}
+
+button[type="submit"]:hover {
+    background-color: darkorange;
+}
+
+button[type="reset"] {
+    background-color: lightgray;
+}
+
+button[type="reset"]:hover {
+    background-color: darkgray;
+}
+
+#confirmation {
+    margin-top: 30px;
+    font-size: 20px;
+    color: darkgreen;
+}
